@@ -26,7 +26,7 @@ body {
     padding-left: 4px;
     color: #e7e7e7;
 }
-.navbar ul li a { color: #e1e1e1 !important; }
+.navbar ul li a { color: #cecece !important; }
 .navbar ul li.active { background-color: #e1e1e1; }
 .navbar ul li a:hover { color: #e1e1e1 !important; }
 .navbar ul li.active a { color: rgba(0, 0, 0, 0.8) !important;}
