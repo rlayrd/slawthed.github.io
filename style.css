@@ -16,17 +16,22 @@ body {
     min-height: 70px;
     padding-top: 10px;
     background-color: rgba(0, 0, 0, 0.8);
+    text-color: #dcdcdc;
 }
 
 .navbar ul li {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     padding-right: 4px;
     padding-left: 4px;
+    color: #e7e7e7;
 }
-.navbar ul li.active {
-
-}
+.navbar ul li a { color: #e1e1e1 !important; }
+.navbar ul li.active { background-color: #e1e1e1; }
+.navbar ul li a:hover { color: #e1e1e1 !important; }
+.navbar ul li.active a { color: rgba(0, 0, 0, 0.8) !important;}
+.navbar ul li a:hover { color: #f6f6f6 !important; }
+.navbar ul li.active a:hover { color: rgba(0, 0, 0, 0.8) !important; }
 img {
     border: 10px solid grey;
     padding: 10px;
